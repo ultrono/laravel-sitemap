@@ -1,7 +1,6 @@
 {
-    "name": "laravelium/sitemap",
-    "description": "Laravelium Sitemap package for Laravel.",
-    "homepage": "https://laravelium.com",
+    "name": "ultrono/laravel-sitemap",
+    "description": "PHP 8 sitemap generator for Laravel 8 and 9",
     "keywords": ["laravelium", "laravel", "php", "sitemap", "generator", "xml", "html", "google-news"],
     "license": "MIT",
     "authors": [
@@ -10,12 +9,18 @@
             "email": "r@alfamatter.com",
             "role": "Developer",
             "homepage": "https://darumen.com"
+        },
+        {
+            "name": "Rob Allport",
+            "email": "rob@f9web.co.uk",
+            "role": "Contributor",
+            "homepage": "https://f9web.co.uk"
         }
     ],
     "support": {
-        "issues": "https://github.com/Laravelium/laravel-sitemap/issues",
-        "source": "https://github.com/Laravelium/laravel-sitemap",
-        "wiki": "https://github.com/Laravelium/laravel-sitemap/wiki"
+        "issues": "https://github.com/ultrono/laravel-sitemap/issues",
+        "source": "https://github.com/ultrono/laravel-sitemap",
+        "wiki": "https://github.com/ultrono/laravel-sitemap/wiki"
     },
     "require": {
         "php": "^8.0",
