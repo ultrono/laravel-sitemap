@@ -1,51 +1,45 @@
-name: PHP tests
+name: run-tests-laravel-8-9
 
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+on: [push, pull_request]
 
 jobs:
-  php-tests:
-
-    runs-on: ubuntu-latest
+  tests:
+    runs-on: ${{ matrix.os }}
     strategy:
+      fail-fast: false
       matrix:
-        php-versions: ['7.3', '7.4']
+        os: [ubuntu-latest]
+        php: [8.0]
+        laravel: [8.*, 9.*]
+        dependency-version: [prefer-stable]
+        include:
+          -   laravel: 8.*
+              testbench: 6.*
+          -   laravel: 9.*
+              testbench: 7.*   
 
-    name: PHP ${{ matrix.php-versions }} tests
+    name: P${{ matrix.php }} - L${{ matrix.laravel }} - ${{ matrix.dependency-version }}
 
     steps:
-    - name: Checkout
-      uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v2
+        
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.composer/cache/files
+          key: dependencies-laravel-${{ matrix.laravel }}-php-${{ matrix.php }}-composer-${{ hashFiles('composer.json') }}
 
-    - name: Setup PHP
-      uses: shivammathur/setup-php@v2
-      with:
-        php-version: ${{ matrix.php-versions }}
-        extensions: mbstring, intl
-        ini-values: post_max_size=256M, short_open_tag=On
-        coverage: xdebug        
-        tools: php-cs-fixer, phpunit
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php }}
+          extensions: curl, mbstring, zip, pcntl, sqlite, pdo_sqlite, iconv
+          coverage: none
 
-    - name: Validate composer.json and composer.lock
-      run: composer validate
-
-    - name: Install dependencies
-      run: composer install --prefer-dist --no-progress --no-suggest
-      
-    - name: Execute PHPUnit tests
-      run: vendor/bin/phpunit --configuration phpunit.xml --coverage-text
-
-    - name: Upload coverage results to Codeclimate
-      env:
-        CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
-      run: |
-        curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
-        chmod +x ./cc-test-reporter
-        ./cc-test-reporter before-build
-        vendor/bin/phpunit tests --coverage-clover build/logs/clover.xml
-        ./cc-test-reporter after-build -t clover --exit-code $?
-
-
+      - name: Install dependencies
+        run: |
+          composer require "laravel/framework:${{ matrix.laravel }}" "orchestra/testbench:${{ matrix.testbench }}" --no-interaction --no-update
+          composer update --${{ matrix.dependency-version }} --prefer-dist --no-interaction
+      - name: Execute tests
+        run: vendor/bin/phpunit --color=always tests
