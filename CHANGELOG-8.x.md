@@ -1,13 +1,10 @@
 # Change log
 
 
-## v8.0.1 (2020-09-10)
+## v9.0.0 (2022-03-10)
 
 ### Added
 
-- Added support to Laravel 8
-- Added new branch for development ``8.x-dev``
-
-### Fixed
-
-- Minor bug fixes and optimizations
+- PHP `^8.0`only
+- Dropped Laravel 7 and below support
+- Support only Laravel 8 and 9
