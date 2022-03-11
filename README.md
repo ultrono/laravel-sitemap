@@ -15,7 +15,7 @@ composer require ultrono/laravel-sitemap
 ```
 
 ```bash
-php artisan vendor:publish --provider="Laravelium\Sitemap\SitemapServiceProvider"
+php artisan vendor:publish --provider="Ultrono\Sitemap\SitemapServiceProvider"
 ```
 
 ## Generate a simple sitemap

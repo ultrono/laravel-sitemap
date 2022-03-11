@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravelium\Sitemap;
+namespace Ultrono\Sitemap;
 
 /**
  * Model class for laravel-sitemap package.
@@ -9,7 +9,7 @@ namespace Laravelium\Sitemap;
  *
  * @version 7.0.1
  *
- * @link https://gitlab.com/Laravelium
+ * @link https://github.com/ultrono/laravel-sitemap
  *
  * @license http://opensource.org/licenses/mit-license.php MIT License
  */
@@ -104,7 +104,7 @@ class Model
     private $useGzip = false;
 
     /**
-     * Populating model variables from configuation file.
+     * Populating model variables from configuration file.
      *
      * @param array $config
      */
