@@ -1,3 +1,4 @@
+![Packagist Version](https://img.shields.io/packagist/v/ultrono/laravel-sitemap?style=plastic)
 [![run-tests-laravel-8-9](https://github.com/ultrono/laravel-sitemap/actions/workflows/workflow.yml/badge.svg)](https://github.com/ultrono/laravel-sitemap/actions/workflows/workflow.yml)
 [![PHP ^8.0](https://img.shields.io/badge/php-%5E8.0-green)]()
 
