@@ -19,8 +19,7 @@
     ],
     "support": {
         "issues": "https://github.com/ultrono/laravel-sitemap/issues",
-        "source": "https://github.com/ultrono/laravel-sitemap",
-        "wiki": "https://github.com/ultrono/laravel-sitemap/wiki"
+        "source": "https://github.com/ultrono/laravel-sitemap"
     },
     "require": {
         "php": "^8.0",
