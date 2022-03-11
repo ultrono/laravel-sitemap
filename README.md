@@ -41,12 +41,13 @@ Route::get('mysitemap', function() {
 
 ## Examples
 
-- [How to generate dynamic sitemap (with optional caching)](https://github.com/Laravelium/laravel-sitemap/wiki/Dynamic-sitemap)
+- [How to generate dynamic sitemap (with optional caching)](https://web.archive.org/web/20201130155031/https://github.com/Laravelium/laravel-sitemap/wiki/Dynamic-sitemap)
+- 
 
-- [How to generate BIG sitemaps (with more than 1M items)](https://github.com/Laravelium/laravel-sitemap/wiki/Sitemap-index)
+- [How to generate BIG sitemaps (with more than 1M items)](https://web.archive.org/web/20201130155031/https://github.com/Laravelium/laravel-sitemap/wiki/Sitemap-index)
 
-- [How to generate sitemap to a file](https://github.com/Laravelium/laravel-sitemap/wiki/Generate-sitemap)
+- [How to generate sitemap to a file](https://web.archive.org/web/20201130155030/https://github.com/Laravelium/laravel-sitemap/wiki/Generate-sitemap)
 
-- [How to use multiple sitemaps with sitemap index](https://github.com/Laravelium/laravel-sitemap/wiki/Generate-BIG-sitemaps)
+- [How to use multiple sitemaps with sitemap index](https://web.archive.org/web/20201130155030/https://github.com/Laravelium/laravel-sitemap/wiki/Generate-BIG-sitemaps)
 
-and more in the [Wiki](https://github.com/Laravelium/laravel-sitemap/wiki).
+and more in the [Wiki](https://web.archive.org/web/20201130155038/https://github.com/Laravelium/laravel-sitemap/wiki).
