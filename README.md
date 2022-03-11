@@ -1,3 +1,6 @@
+[![run-tests-laravel-8-9](https://github.com/ultrono/laravel-sitemap/actions/workflows/workflow.yml/badge.svg)](https://github.com/ultrono/laravel-sitemap/actions/workflows/workflow.yml)
+[![PHP ^8.0](https://img.shields.io/badge/php-%5E8.0-green)]()
+
 # Laravel Sitemap
 
 This is a `PHP ^8.0` Laravel 8 and 9 only fork of [Laravelium/laravel-sitemap](https://github.com/Laravelium/laravel-sitemap), as the original repository has been abandoned and does not support Laravel 9.
