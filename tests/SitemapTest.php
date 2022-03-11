@@ -1,10 +1,10 @@
 <?php
 
-namespace Laravelium\Sitemap\Test;
+namespace Ultrono\Sitemap\Test;
 
-use Laravelium\Sitemap\Sitemap;
+use Ultrono\Sitemap\Sitemap;
 use Orchestra\Testbench\TestCase;
-use Laravelium\Sitemap\SitemapServiceProvider;
+use Ultrono\Sitemap\SitemapServiceProvider;
 
 class SitemapTest extends TestCase
 {

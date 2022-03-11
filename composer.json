@@ -7,13 +7,13 @@
         {
             "name": "Rumen Damyanov",
             "email": "r@alfamatter.com",
-            "role": "Developer",
+            "role": "Original Developer",
             "homepage": "https://darumen.com"
         },
         {
             "name": "Rob Allport",
             "email": "rob@f9web.co.uk",
-            "role": "Contributor",
+            "role": "Developer",
             "homepage": "https://f9web.co.uk"
         }
     ],
@@ -34,13 +34,13 @@
     },
     "autoload": {
         "psr-0": {
-            "Laravelium\\Sitemap": "src/"
+            "Ultrono\\Sitemap": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Laravelium\\Sitemap\\SitemapServiceProvider"
+                "Ultrono\\Sitemap\\SitemapServiceProvider"
             ]
         }
     },

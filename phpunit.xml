@@ -16,7 +16,7 @@
 	</testsuites>
 	<filter>
 		<whitelist addUncoveredFilesFromWhitelist="true">
-			<directory suffix=".php">./src/Laravelium/Sitemap</directory>
+			<directory suffix=".php">./src/Ultrono/Sitemap</directory>
 			<exclude>
 				<directory>./tests/</directory>
 			</exclude>

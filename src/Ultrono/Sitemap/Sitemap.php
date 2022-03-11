@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravelium\Sitemap;
+namespace Ultrono\Sitemap;
 
 /**
  * Sitemap class for laravel-sitemap package.
@@ -8,8 +8,6 @@ namespace Laravelium\Sitemap;
  * @author Rumen Damyanov <r@alfamatter.com>
  *
  * @version 7.0.1
- *
- * @link https://gitlab.com/Laravelium
  *
  * @license http://opensource.org/licenses/mit-license.php MIT License
  */
