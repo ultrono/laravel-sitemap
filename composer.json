@@ -1,7 +1,7 @@
 {
     "name": "ultrono/laravel-sitemap",
     "description": "PHP 8 sitemap generator for Laravel 8 and 9",
-    "keywords": ["laravelium", "laravel", "php", "sitemap", "generator", "xml", "html", "google-news"],
+    "keywords": ["laravel", "php", "sitemap", "generator", "xml", "html", "google-news"],
     "license": "MIT",
     "authors": [
         {
@@ -40,7 +40,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Laravelium\\Sitemap\\SitemapServiceProvider"
+                "Ultrono\\Sitemap\\SitemapServiceProvider"
             ]
         }
     },
