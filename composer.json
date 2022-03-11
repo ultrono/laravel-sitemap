@@ -34,13 +34,13 @@
     },
     "autoload": {
         "psr-0": {
-            "Laravelium\\Sitemap": "src/"
+            "Ultrono\\Sitemap": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Laravelium\\Sitemap\\SitemapServiceProvider"
+                "Ultrono\\Sitemap\\SitemapServiceProvider"
             ]
         }
     },
