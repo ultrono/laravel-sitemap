@@ -40,7 +40,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ultrono\\Sitemap\\SitemapServiceProvider"
+                "Laravelium\\Sitemap\\SitemapServiceProvider"
             ]
         }
     },
