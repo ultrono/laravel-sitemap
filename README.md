@@ -9,17 +9,33 @@ This is a `PHP ^8.0` Laravel 8 and 9 only fork of [Laravelium/laravel-sitemap](h
 
 ## Installation
 
-Run the following command and provide the latest stable version (e.g v8.\*) :
-
 ```bash
 composer require ultrono/laravel-sitemap
 ```
 
-
-Optionally publish assets (styles, views, config files):
-
 ```bash
 php artisan vendor:publish --provider="Laravelium\Sitemap\SitemapServiceProvider"
+```
+
+## Generate a simple sitemap
+
+```php
+Route::get('mysitemap', function() {
+    $sitemap = resolve("sitemap");
+
+    $sitemap->add(URL::to(), '2012-08-25T20:10:00+02:00', '1.0', 'daily');
+    $sitemap->add(URL::to('page'), '2012-08-26T12:30:00+02:00', '0.9', 'monthly');
+
+    $posts = DB::table('posts')->orderBy('created_at', 'desc')->get();
+
+    foreach ($posts as $post) {
+        $sitemap->add($post->slug, $post->modified, $post->priority, $post->freq);
+    }
+
+    // generate (format, filename)
+    // sitemap.xml is stored within the public folder
+    $sitemap->store('xml', 'sitemap');
+});
 ```
 
 ## Examples

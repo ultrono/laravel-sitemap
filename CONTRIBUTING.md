@@ -16,4 +16,4 @@ There is no special template for creating new issues, but please when create new
 
 ## Security Reports
 
-If you discover a security vulnerability within this package, please send an e-mail to Rumen Damyanov via [r@alfamatter.com](mailto:r@alfamatter.com). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within this package, please send an e-mail to Rob Allport via [rob@f9web.co.uk](mailto:rob@f9web.co.uk). All security vulnerabilities will be promptly addressed.
