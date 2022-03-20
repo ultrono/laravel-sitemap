@@ -10,6 +10,13 @@ This is a `PHP ^8.0` Laravel 8 and 9 only fork of [Laravelium/laravel-sitemap](h
 
 ## Installation
 
+If `laravelium/sitemap` is already part of the project:
+
+```bash
+composer remove laravelium/sitemap
+```
+Then run:
+
 ```bash
 composer require ultrono/laravel-sitemap
 ```
@@ -42,12 +49,8 @@ Route::get('mysitemap', function() {
 ## Examples
 
 - [How to generate dynamic sitemap (with optional caching)](https://web.archive.org/web/20201130155031/https://github.com/Laravelium/laravel-sitemap/wiki/Dynamic-sitemap)
-- 
-
 - [How to generate BIG sitemaps (with more than 1M items)](https://web.archive.org/web/20201130155031/https://github.com/Laravelium/laravel-sitemap/wiki/Sitemap-index)
-
 - [How to generate sitemap to a file](https://web.archive.org/web/20201130155030/https://github.com/Laravelium/laravel-sitemap/wiki/Generate-sitemap)
-
 - [How to use multiple sitemaps with sitemap index](https://web.archive.org/web/20201130155030/https://github.com/Laravelium/laravel-sitemap/wiki/Generate-BIG-sitemaps)
 
 and more in the [Wiki](https://web.archive.org/web/20201130155038/https://github.com/Laravelium/laravel-sitemap/wiki).
