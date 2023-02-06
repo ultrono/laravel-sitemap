@@ -4,9 +4,9 @@
 
 # Laravel Sitemap
 
-This is a `PHP ^8.0` Laravel 8 and 9 only fork of [Laravelium/laravel-sitemap](https://github.com/Laravelium/laravel-sitemap), as the original repository has been abandoned and does not support Laravel 9.
-
-**Support for < 8 or PHP 8 have been dropped**.
+This is a Laravel 8, 9 and 10 only fork of [Laravelium/laravel-sitemap](https://github.com/Laravelium/laravel-sitemap). The original repository has been abandoned.
+ 
+PHP `^8.0` is required. 
 
 ## Installation
 
