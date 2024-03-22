@@ -1,6 +1,6 @@
 <?php
 
-namespace Ultrono\Sitemap;
+namespace TahsinGokalp\Sitemap;
 
 /**
  * Model class for laravel-sitemap package.
@@ -9,7 +9,7 @@ namespace Ultrono\Sitemap;
  *
  * @version 7.0.1
  *
- * @link https://github.com/ultrono/laravel-sitemap
+ * @link https://github.com/tahsingokalp/laravel-sitemap
  *
  * @license http://opensource.org/licenses/mit-license.php MIT License
  */

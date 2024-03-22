@@ -1,6 +1,6 @@
 <?php
 
-namespace Ultrono\Sitemap;
+namespace TahsinGokalp\Sitemap;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Contracts\Support\DeferrableProvider;

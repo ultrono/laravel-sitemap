@@ -1,5 +1,5 @@
 {
-    "name": "ultrono/laravel-sitemap",
+    "name": "tahsingokalp/laravel-sitemap",
     "description": "PHP 8 sitemap generator for Laravel 8 and 9",
     "keywords": ["laravel", "php", "sitemap", "generator", "xml", "html", "google-news"],
     "license": "MIT",
@@ -18,29 +18,29 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/ultrono/laravel-sitemap/issues",
-        "source": "https://github.com/ultrono/laravel-sitemap"
+        "issues": "https://github.com/tahsingokalp/laravel-sitemap/issues",
+        "source": "https://github.com/tahsingokalp/laravel-sitemap"
     },
     "require": {
         "php": "^8.0",
-        "illuminate/support": "^8.0 || ^9.0 || ^10.0",
-        "illuminate/filesystem": "^8.0 || ^9.0 || ^10.0"
+        "illuminate/support": "^8.0 || ^9.0 || ^10.0 || ^11.0",
+        "illuminate/filesystem": "^8.0 || ^9.0 || ^10.0 || ^11.0"
     },
     "require-dev": {
-        "laravel/framework": "^8.0 || ^9.0 || ^10.0",
+        "laravel/framework": "^8.0 || ^9.0 || ^10.0 || ^11.0",
         "phpunit/phpunit": "^9.3",
         "orchestra/testbench-core": "^6.0 || ^7.0 || ^8.0",
         "php-coveralls/php-coveralls" : "^2.2"
     },
     "autoload": {
         "psr-0": {
-            "Ultrono\\Sitemap": "src/"
+            "TahsinGokalp\\Sitemap": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Ultrono\\Sitemap\\SitemapServiceProvider"
+                "TahsinGokalp\\Sitemap\\SitemapServiceProvider"
             ]
         }
     },

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ultrono\Sitemap;
+namespace TahsinGokalp\Sitemap;
 
 /**
  * Sitemap class for laravel-sitemap package.

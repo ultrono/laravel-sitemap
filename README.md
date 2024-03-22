@@ -1,5 +1,5 @@
-![Packagist Version](https://img.shields.io/packagist/v/ultrono/laravel-sitemap)
-[![run-tests](https://github.com/ultrono/laravel-sitemap/actions/workflows/run-tests.yml/badge.svg)](https://github.com/ultrono/laravel-sitemap/actions/workflows/run-tests.yml)
+![Packagist Version](https://img.shields.io/packagist/v/tahsingokalp/laravel-sitemap)
+[![run-tests](https://github.com/tahsingokalp/laravel-sitemap/actions/workflows/run-tests.yml/badge.svg)](https://github.com/tahsingokalp/laravel-sitemap/actions/workflows/run-tests.yml)
 [![PHP ^8.0](https://img.shields.io/badge/php-%5E8.0-green)]()
 
 # Laravel Sitemap
@@ -18,11 +18,11 @@ composer remove laravelium/sitemap
 Then run:
 
 ```bash
-composer require ultrono/laravel-sitemap
+composer require tahsingokalp/laravel-sitemap
 ```
 
 ```bash
-php artisan vendor:publish --provider="Ultrono\Sitemap\SitemapServiceProvider"
+php artisan vendor:publish --provider="TahsinGokalp\Sitemap\SitemapServiceProvider"
 ```
 
 ## Generate a simple sitemap

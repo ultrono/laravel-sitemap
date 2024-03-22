@@ -1,10 +1,10 @@
 <?php
 
-namespace Ultrono\Sitemap\Test;
+namespace TahsinGokalp\Sitemap\Test;
 
-use Ultrono\Sitemap\Sitemap;
+use TahsinGokalp\Sitemap\Sitemap;
 use Orchestra\Testbench\TestCase;
-use Ultrono\Sitemap\SitemapServiceProvider;
+use TahsinGokalp\Sitemap\SitemapServiceProvider;
 
 class SitemapTest extends TestCase
 {
