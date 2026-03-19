@@ -5,8 +5,8 @@
 # Laravel Sitemap
 
 This is a Laravel 11, 12 and 13 only fork of [Laravelium/laravel-sitemap](https://github.com/Laravelium/laravel-sitemap). The original repository has been abandoned.
- 
-PHP `^8.2` is required. 
+
+The package supports actively supported Laravel releases as per the official [Laravel Support Policy](https://laravel.com/docs/master/releases#support-policy).
 
 ## Installation
 
