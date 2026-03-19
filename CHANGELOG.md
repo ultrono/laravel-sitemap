@@ -3,7 +3,7 @@
 ## v10.0.0 (2026-03-19)
 
 - Add Laravel 13 support
-- Only support Laravel 11, 12, and 13 (PHp ^8.2)
+- The package actively supports Laravel releases as per the official [Laravel Support Policy](https://laravel.com/docs/master/releases#support-policy).
 - Fix Github actions
 - No API changes
 
