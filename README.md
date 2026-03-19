@@ -1,12 +1,12 @@
 ![Packagist Version](https://img.shields.io/packagist/v/ultrono/laravel-sitemap?link=https%3A%2F%2Fpackagist.org%2Fpackages%2Fultrono%2Flaravel-sitemap)
 [![run-tests](https://github.com/ultrono/laravel-sitemap/actions/workflows/run-tests.yml/badge.svg)](https://github.com/ultrono/laravel-sitemap/actions/workflows/run-tests.yml)
-[![PHP ^8.0](https://img.shields.io/badge/php-%5E8.0-green)]()
+[![PHP ^8.2](https://img.shields.io/badge/php-%5E8.2-green)]()
 
 # Laravel Sitemap
 
-This is a Laravel 8, 9, 10, 11, 12 and 13 only fork of [Laravelium/laravel-sitemap](https://github.com/Laravelium/laravel-sitemap). The original repository has been abandoned.
+This is a Laravel 11, 12 and 13 only fork of [Laravelium/laravel-sitemap](https://github.com/Laravelium/laravel-sitemap). The original repository has been abandoned.
  
-PHP `^8.0` is required. 
+PHP `^8.2` is required. 
 
 ## Installation
 
